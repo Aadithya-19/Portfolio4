@@ -1,0 +1,73 @@
+h1{
+    color:brown
+}
+
+.Header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left : 30px;
+}
+
+a{
+    margin-right : 30px;
+    margin-top: 30px;
+}
+
+.Grid{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Item{
+    position: relative;
+}
+
+.Item p{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity : 0;
+    
+}
+
+.Item:hover p{
+    opacity : 1;
+
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.Item:hover img{
+    opacity: 0.25;
+}
+
+.Footer {
+    display : flex;
+    justify-content: flex-end;
+    padding-top: 200;
+    height: 100;
+    
+}
+/* *{
+    border: solid;
+} */
+p, h2{
+    text-align: center;
+}
+
+body {
+    background-color: #808080;
+}
